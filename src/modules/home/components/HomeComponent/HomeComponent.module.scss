@@ -1,0 +1,20 @@
+.root {
+  padding: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+
+  :not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+.count {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}

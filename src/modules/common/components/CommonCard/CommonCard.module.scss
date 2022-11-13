@@ -1,0 +1,12 @@
+@import "../../../../styles/variables";
+
+.rootContent {
+  padding: 1rem;
+}
+
+@media screen and (min-width: $breakpoints-md) {
+  .rootContent.gutterOnMd {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}

@@ -1,0 +1,112 @@
+$icon-size: 0.85rem;
+
+.fullHeight {
+  height: 100%;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  display: inline-flex;
+}
+
+.spinner {
+  height: $icon-size;
+  width: $icon-size;
+  margin-right: 0.75rem;
+  transition: width 0.3s;
+}
+
+.small {
+  padding: 7px 10px;
+}
+
+.medium {
+  padding: 13px 20px;
+}
+
+.large {
+  padding: 18px 48px;
+  min-width: 20rem;
+}
+
+.primary {
+  background-color: var(--color-primary);
+}
+
+.primary:not(.preventStrokeColor) svg path {
+  stroke: #fff;
+}
+
+.primary:hover {
+  background-color: var(--color-primary-light);
+}
+
+.primary:disabled {
+  background-color: var(--color-primary-diabled);
+}
+
+.primary:active {
+  background-color: var(--color-primary-active);
+}
+
+.grey {
+  background-color: var(--color-grey);
+}
+
+.grey:hover {
+  background-color: var(--color-dark-grey);
+}
+
+.grey:disabled {
+  background-color: var(--color-light-grey);
+}
+
+.grey:active {
+  background-color: #353a36;
+}
+
+.light-grey {
+  background-color: var(--color-light-grey);
+}
+
+.light-grey:hover {
+  background-color: var(--color-grey);
+}
+
+.light-grey:active {
+  background-color: var(--color-dark-grey);
+}
+
+.white {
+  background-color: var(--color-white);
+  color: inherit;
+}
+
+.white:hover,
+.white:active {
+  background-color: var(--color-light-grey);
+}
+
+.transparent {
+  background-color: transparent;
+  color: var(--bs-body-color);
+}
+
+.transparent:not(.preventStrokeColor) svg path {
+  stroke: var(--bs-body-color);
+}
+
+.transparent:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.transparent:active {
+  background-color: transparent;
+}
+
+// for mobile only
+@media screen and (max-width: 991px) {
+  .isFullWidthOnMobile {
+    width: 100%;
+  }
+}

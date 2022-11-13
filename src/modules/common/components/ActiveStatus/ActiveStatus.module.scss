@@ -1,0 +1,11 @@
+.root {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(229, 57, 53);
+
+  &.active {
+    background-color: rgb(67, 160, 71);
+  }
+}

@@ -1,0 +1,24 @@
+.pending {
+  padding: 4px 12px;
+  color: rgb(244, 67, 54);
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(244, 67, 54, 0.1);
+}
+.processing {
+  padding: 4px 12px;
+  color: rgb(33, 150, 243);
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(33, 150, 243, 0.1);
+}
+.resolve {
+  padding: 4px 12px;
+  color: rgb(76, 175, 80);
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(76, 175, 80, 0.1);
+}

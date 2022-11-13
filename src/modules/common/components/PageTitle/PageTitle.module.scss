@@ -1,0 +1,32 @@
+$margin-bottom: 1.25rem;
+
+.root {
+  h2 {
+    margin-bottom: $margin-bottom;
+  }
+
+  &.gutter {
+    //margin-bottom: $margin-bottom;
+
+    & h2 {
+      margin: 0 1rem 0 0;
+    }
+  }
+
+  &.hasAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &.hasBack {
+    display: flex;
+    align-items: center;
+  }
+
+  .iconBtn {
+    margin-right: 0.5rem;
+  }
+  border-bottom: solid 1px #dddddd82;
+  padding-bottom: 15px;
+}

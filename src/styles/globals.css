@@ -1,0 +1,65 @@
+:root {
+  --box-shadow: 0px 1px 3px 0px #0000001a;
+  --color-primary: #204099;
+  --color-primary-active: #2850bd;
+  --color-primary-light: #2d59d2;
+  --color-primary-diabled: #819be4;
+  --color-grey: #4c544e;
+  --color-light-grey: #dadddb;
+  --color-white: #f9faf9;
+  --color-dark-grey: #3c433e;
+  --color-darker-grey: #4c544e;
+  --color-chart-grey: #78909c;
+  --color-window-color: #ffffff;
+  --color-purple: #6758b2;
+  --color-red: #b25959;
+  --color-orange: #c6aa74;
+  --color-light-black: #0000001a;
+  --color-default-bg: #f9faf9;
+  --border-color: #09140b0d;
+  --plain-white: #ffffff;
+  --nav-height: 4.625rem;
+  --font-family: "Poppins", sans-serif;
+  --border-radius-lg: 1rem;
+  --border-radius: 0.5rem;
+  --border-radius-sm: 0.25rem;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  text-shadow: 0 1px 2px #e1d9d9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-family);
+}
+
+.quill > .ql-toolbar:first-child {
+  display: none !important;
+}
+.MuiDataGrid-cell {
+  color: rgb(107, 114, 128);
+  font-size: 15px;
+}
+.product-attribute-tabs {
+  height: 122px;
+}
+.app-content {
+  padding: 20px 50px 0 50px;
+}
+.removeCardContentButtomPaddingPlacedOnGlobalCss {
+  padding-bottom: 0px !important;
+}
