@@ -161,7 +161,7 @@ export default function CommonModal({ value, options, index }: ICommonModal) {
       >
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Product {value?.action == "book" ? "Book" : "Retun"}
+            Product {value?.action == "book" ? "Book" : "Return"}
           </Typography>
           <Typography
             id="modal-modal-title"

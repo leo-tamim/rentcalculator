@@ -21,7 +21,7 @@ export default function Filters({ filters, onChangeFilters }: IProps) {
   const handleChange = (val: string, key: string) => {
     onChangeFilters({ ...filters, [key]: val ? val : null });
     key === "code" && val != "" ? setEn(true) : setEn(false);
-    key === "namew" && val != "" ? setBn(true) : setBn(false);
+    key === "name" && val != "" ? setBn(true) : setBn(false);
     key === "uid" && val != "" ? setID(true) : setID(false);
   };
 
@@ -92,31 +92,7 @@ export default function Filters({ filters, onChangeFilters }: IProps) {
           }}
         />
       </Grid>
-      {/* <Grid item xs={12} md={3}>
-        <DebouncedTextField
-          value={filters.rentPeriod}
-          onChange={(val) => handleChange(val, "uid")}
-          label="UID"
-          size="small"
-          InputLabelProps={{
-            shrink: true,
-          }}
-          focused={true}
-          color={"primary"}
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                ID
-                {id === true ? (
-                  <FcOk fontSize={"15px"} className={styles.iconAdjust} />
-                ) : (
-                  <FcClearFilters fontSize={"15px"} color="#009688" />
-                )}
-              </InputAdornment>
-            ),
-          }}
-        />
-      </Grid> */}
+
       <Grid item xs={12} md={4}></Grid>
     </>
   );

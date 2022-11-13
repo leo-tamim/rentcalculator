@@ -99,9 +99,8 @@ const ManageProduct = () => {
           icon={<FcRules fontSize={"36px"} color="#eb8d34" />}
           action={
             <CommonButton
-              //disabled={!hasPermission}
               onClick={() => {
-                router.push("/app/complain/form");
+                router.push("/");
               }}
               color="info"
             >

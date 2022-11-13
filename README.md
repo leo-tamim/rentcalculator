@@ -1,4 +1,4 @@
-# Walcart Content Portal
+# Rent Calculator Content Portal
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It has Apollo Client to fetch GraphQL APIs. It also contains Eslint, Prettier, Husky & Lint-staged to format the code. Happy coding!
 
